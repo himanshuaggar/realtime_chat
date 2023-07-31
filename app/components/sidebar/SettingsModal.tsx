@@ -14,7 +14,7 @@ import Button from "../Button";
 
 interface SettingsModalProps {
     isOpen?: boolean;
-    onClose?:() => void;
+    onClose:() => void;
     currentUser: User
 }
 
